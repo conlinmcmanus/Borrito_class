@@ -37,3 +37,11 @@ describe '#make_borrito' do
     expect(borrito.make_borrito).to eq("Add beef and cheese to flour tortilla and make it big")
   end
 end
+
+describe '#side' do
+  let(:borrito) { Borrito.new('big', 'beef', 'flour') }
+
+  it 'sets borrito sides' do
+    expect(borrito.side).to eq('chips')
+  end
+end

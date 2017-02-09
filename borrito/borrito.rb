@@ -18,4 +18,9 @@ class Borrito
   def make_borrito
     "Add #{meat} and #{topping} to #{tortilla} tortilla and make it #{size}"
   end
+
+  def side
+    'chips'
+  end
 end
+ 
